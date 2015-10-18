@@ -1,0 +1,12 @@
+result=0
+def foo(num):
+    global result
+    if num>result:
+        result=num
+    return result
+a=foo(3)
+b=foo(6)
+c=foo(2)
+print(a)
+print(b)
+print(c)
